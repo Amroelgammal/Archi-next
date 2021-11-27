@@ -1,0 +1,160 @@
+/*welcome*/
+
+.welcome {
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.welcome h4 {
+    margin: 1rem 0 2rem 0;
+}
+
+.welcome p {
+    max-width: 30rem;
+    align-self: center;
+}
+
+
+.welcome button {
+    margin: 2rem 0;
+}
+
+.welcome img {
+    margin-left: 50px;
+}
+
+/* projects*/
+
+.projects main {
+    display: flex;
+}
+
+.projects h4 {
+    max-width: 1920px;
+    margin: 6rem auto 3rem auto;
+    padding-left: 20%;
+}
+
+/*solutions*/
+
+.solutions main {
+    display: flex;
+}
+
+.solutions article:last-child {
+    margin-left: 237px;
+}
+
+.solutions h4 {
+    margin: 6rem 0 2rem 0;
+}
+
+.solutions p {
+    max-width: 30rem;
+    align-self: center;
+}
+
+.solution {
+    max-width: 30rem;
+}
+
+/*What people say*/
+
+.quotes-wrapper {
+    position: relative;
+    background-color: white;
+}
+
+.quotes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.quotes main {
+    flex-basis: 50%;
+}
+
+.quotes h4 {
+    margin: 4rem 0 6rem 0;
+}
+
+.quotes p, .quotes button {
+    margin: 4rem 0;
+}
+
+.quotes button {
+    margin: 4rem 2rem 6rem 15rem;
+}
+
+blockquote {
+    position: relative;
+    max-width: 25rem;
+}
+
+cite {
+    font-weight: 600;
+    font-style: normal;
+}
+
+blockquote p::before {
+    content: "\275D";
+    font-size: 4rem;
+    color: lightgrey;
+    position: absolute;
+    top: -2.5rem;
+    left: -2.5rem;
+}
+
+.personal-img {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/*events*/
+
+.events main {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.events h4 {
+    margin: 7rem 0 2rem 0;
+}
+
+.event {
+    flex-basis: 30%;
+    max-width: 25rem;
+}
+
+.event p {
+    max-width: 20rem;
+    align-self: center;
+    margin-bottom: 3rem;
+}
+
+.event article {
+    display: flex;
+    justify-content: space-between;
+}
+
+.event aside {
+    color: lightgrey;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.event aside p {
+    font-size: 1.3rem;
+    color: lightgrey;
+}
+
+.event h3 {
+    flex-basis: 70%;
+    margin: 0;
+}
+
